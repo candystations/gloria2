@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gloria</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+
+</head>
+
+<body>
+<div id='wrapper'>
+  <div id='header'>
+    <h1 >Gloria</h1>
+  
+
+  <div class="flex-parent jc-center">
+    <button id="startButton" onclick="toggleError(this)">Play</button>
+    <button id="screenshot">Save</button>
+  </div>
+</div>
+  
+  <div id='canvasContainer'>
+      <canvas id="c">
+    <!--    
+     <script type='module' src= 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r91/three.module.js'></script>
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/91/three.min.js'></script>
+     -->
+     <script src="./build/three.min.js"></script>
+     <script src="./EffectComposer.js"></script>
+     <script src="./RenderPass.js"></script>
+     <script src="./ShaderPass.js"></script>
+     <script src="./CopyShader.js"></script>
+     <script src="./FXAAShader.js"></script>
+     <script src="./script.js"></script>
+  </canvas>
+  </div>
+
+
+   <div id='footer'>
+     <p></p>
+   </div>
+    <!-- <h1 align="center">Gloria</h1> 
+    <h2 align="center">Bottom text lorem Ipsum dolor sit amed</h2>
+  -->
+  </div>
+</body>
+
+</html>
